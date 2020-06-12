@@ -1,0 +1,32 @@
+,d.id,n.N_Name,count(s)
+0,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76141,"['F10 WT ALLELE', 'COAGULATION FACTOR X WT ALLELE', 'FX', 'FXA']",12
+1,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76142,"['COAGULATION FACTOR X', 'FACTOR X', 'STUART FACTOR', 'PROTHROMBINASE', 'EC 3.4.21.6', 'STUART-PROWER FACTOR', 'BLOOD COAGULATION FACTOR X']",12
+2,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76140,"['F10 GENE', 'COAGULATION FACTOR X GENE', 'F10']",12
+3,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75606,"['IDURONATE 2-SULFATASE', 'IDURSULFASE', 'ALPHA-L-IDURONATE SULFATE SULFATASE']",43
+4,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75605,"['IDS WT ALLELE', 'IDURONATE 2-SULFATASE (HUNTER SYNDROME) WT ALLELE', 'MPS2', 'SIDS']",43
+5,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75604,"['IDS GENE', 'IDS', 'IDURONATE 2-SULFATASE (HUNTER SYNDROME) GENE']",43
+6,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18254,"['MEN1 GENE', 'MEN1', 'MENIN 1 GENE']",23
+7,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53065,"['MEN1 WT ALLELE', 'SCG2', 'MEAI', 'MULTIPLE ENDOCRINE NEOPLASIA I GENE', 'MEA I', 'MEN1', 'MENIN 1 WT ALLELE', 'MEN I', 'MULTIPLE ENDOCRINE NEOPLASIA 1 GENE']",23
+8,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18051,"['MENIN', 'MEN1']",23
+9,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52882,"['NF1 WT ALLELE', 'NEUROFIBROMIN 1 WT ALLELE', 'VRNF', 'WSS', 'NEUROFIBROMIN 1 (NEUROFIBROMATOSIS, VON RECKLINGHAUSEN DISEASE, WATSON DISEASE) GENE', 'WATSON DISEASE GENE', 'NEUROFIBROMATOSIS GENE', 'NFNS', 'VON RECKLINGHAUSEN DISEASE GENE']",31
+10,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17412,"['NEUROFIBROMIN', 'NF1', 'NEUROFIBROMATOSIS-RELATED PROTEIN NF-1']",31
+11,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17424,"['NF1 GENE', 'NEUROFIBROMIN 1 GENE', 'NF1']",31
+12,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20657,"['ERCC2 GENE', 'XP4', 'XPD GENE', 'XP, GROUP D', 'XPD', 'XPDC']",24
+13,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75573,"['RETINOSCHISIN PROTEIN', 'X-LINKED JUVENILE RETINOSCHISIS PROTEIN']",12
+14,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75572,"['RS1 WT ALLELE', 'RETINOSCHISIS (X-LINKED, JUVENILE) 1 WT ALLELE']",12
+15,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75571,"['RS1 GENE', 'RS1', 'RETINOSCHISIS (X-LINKED, JUVENILE) 1 GENE']",12
+16,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51237,"['VWF WT ALLELE', 'F8VWF', 'VON WILLEBRAND FACTOR WT ALLELE', 'VWD', 'VDW, TYPE 1 GENE', 'VON WILLEBRAND DISEASE, TYPE 1 GENE']",15
+17,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16572,"['VON WILLEBRAND FACTOR', 'COAGULATION FACTOR VIII VWF', 'VON WILLEBRAND FACTOR ANTIGEN', 'FACTOR VIII-VON WILLEBRAND FACTOR', 'VWFAG', 'VWF', 'FACTOR VIII RELATED ANTIGEN']",15
+18,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28483,"['VWF GENE', 'VON WILLEBRAND FACTOR GENE', 'VWF']",15
+19,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75587,"['STERYL-SULFATASE', 'STEROID SULFATASE', 'STERYL-SULFATE SULFOHYDROLASE', 'EC 3.1.6.2', 'ASC', 'ARYLSULFATASE C']",7
+20,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75584,"['STS GENE', 'STEROID SULFATASE (MICROSOMAL), ISOZYME S GENE', 'STS']",7
+21,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75586,"['STS WT ALLELE', 'STEROID SULFATASE (MICROSOMAL), ISOZYME S WT ALLELE', 'STERYL-SULFATASE', 'EC 3.1.6.2', 'ARSC1', 'ARSC', 'ASC', 'SSDD', 'ES']",7
+22,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157309,"['ZINC FINGER PROTEIN UBI-D4', 'PROTEIN REQUIEM', 'BAF45D', 'DOUBLE PHD FINGERS 2', 'UBI-D4/REQUIEM HOMOLOG', 'D4, ZINC AND DOUBLE PHD FINGERS FAMILY 2', 'DPF2', 'BRG1-ASSOCIATED FACTOR 45D', 'APOPTOSIS RESPONSE ZINC FINGER PROTEIN']",3
+23,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16619,"['TAT GENE', 'HIV TAT', 'TRANS-ACTIVATOR OF TRANSCRIPTION GENE', 'TAT', 'HUMAN IMMUNODEFICIENCY VIRUS TRANSACTIVATING REGULATORY PROTEIN GENE']",7
+24,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157306,"['ZINC FINGER PROTEIN NEURO-D4', 'DOUBLE PHD FINGERS 1', 'BRG1-ASSOCIATED FACTOR 45B', 'D4, ZINC AND DOUBLE PHD FINGERS FAMILY 1', 'BAF45B', 'DPF1']",16
+25,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18263,"['WT2 GENE', 'WIT2', 'WT2', 'MTACR1', 'MULTIPLE TUMOR-ASSOCIATED CHROMOSOME REGION 1 GENE', 'WIT-2', 'WILMS TUMOR 2 GENE', 'ADCR']",3
+26,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49436,"['WT2 WT ALLELE', 'WILMS TUMOR 2 WT ALLELE', 'WIT-2', 'ADCR', 'WIT2', 'MTACR1']",3
+27,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18563,"['WT2 PROTEIN', 'MULTIPLE TUMOR-ASSOCIATED CHROMOSOME REGION 1', 'WT2 GENE PRODUCT', 'WT2']",3
+28,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75567,PROTEIN XRP2,8
+29,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75566,"['RP2 WT ALLELE', 'TBCCD2', 'NME10', 'RETINITIS PIGMENTOSA 2 (X-LINKED RECESSIVE) WT ALLELE', 'XRP2', 'DELXP11.3']",8
+30,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75565,"['RP2 GENE', 'RETINITIS PIGMENTOSA 2 (X-LINKED RECESSIVE) GENE', 'RP2']",8

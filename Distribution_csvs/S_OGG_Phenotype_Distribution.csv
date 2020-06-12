@@ -1,0 +1,85 @@
+,d.id,n.N_Name,count(s)
+0,http://purl.obolibrary.org/obo/OGG_3000140821,"['SRS', 'RSS']",29
+1,http://purl.obolibrary.org/obo/OGG_3000001243,"['CMM1', 'MLM', 'FAMMM', 'DNS', 'CMM']",7
+2,http://purl.obolibrary.org/obo/OGG_3100528024,"['WAGR', 'C11DELP13', 'DEL11P13']",15
+3,http://purl.obolibrary.org/obo/OGG_3000023706,"['BGCI', 'IBGC', 'IBGC1']",27
+4,http://purl.obolibrary.org/obo/OGG_3000007149,"['TOCG', 'TEC', 'TOC']",6
+5,http://purl.obolibrary.org/obo/OGG_3100379201,"['ARSAL', 'SPAX3']",16
+6,http://purl.obolibrary.org/obo/OGG_3000008114,"['SIV', 'IV']",9
+7,http://purl.obolibrary.org/obo/OGG_3100820633,"['C2DELQ23.1', 'DEL2Q23.1']",42
+8,http://purl.obolibrary.org/obo/OGG_3000008144,"['FIM1', 'FIMG1', 'MGI', 'FIMG', 'CMS1A1']",24
+9,http://purl.obolibrary.org/obo/OGG_3000001714,"['DGS', 'CATCH22', 'VCF', 'DGCR']",53
+10,http://purl.obolibrary.org/obo/OGG_3000008056,"['FBP', 'ECB2']",13
+11,http://purl.obolibrary.org/obo/OGG_3000008090,"['SPMD', 'SPPM']",5
+12,http://purl.obolibrary.org/obo/OGG_3000001637,"['DSCR', 'DCR']",31
+13,http://purl.obolibrary.org/obo/OGG_3000004169,"['MCKD', 'MCD', 'ADMCKD1', 'ADMCKD', 'MCKD1']",20
+14,http://purl.obolibrary.org/obo/OGG_3000791085,"['C17DELQ21.31', 'DEL17Q21.31']",83
+15,http://purl.obolibrary.org/obo/OGG_3100502567,"['CHR15DELQ24', 'DEL15Q24']",92
+16,http://purl.obolibrary.org/obo/OGG_3000005131,"['PDB', 'PDB1']",8
+17,http://purl.obolibrary.org/obo/OGG_3100188869,"['EIG7', 'SCZD13', 'MICRODEL15Q13.3', 'DEL15Q13.3']",19
+18,http://purl.obolibrary.org/obo/OGG_3000000261,"['AMC1', 'AMCN1', 'AMC', 'AMCN']",6
+19,http://purl.obolibrary.org/obo/OGG_3000001219,"['CMPD3', 'CMD1C']",8
+20,http://purl.obolibrary.org/obo/OGG_3000050644,"['SMRXS', 'MRXS11']",13
+21,http://purl.obolibrary.org/obo/OGG_3000386724,"['ALI3', 'AMIGO-3', 'AMIGO3']",5
+22,http://purl.obolibrary.org/obo/OGG_3100302680,"['MICRODELXQ28', 'DELXQ28']",16
+23,http://purl.obolibrary.org/obo/OGG_3000005722,"['PSS1', 'PSORS2']",6
+24,http://purl.obolibrary.org/obo/OGG_3000008221,"['BBBG2', 'GBBB2', 'OGS2']",58
+25,http://purl.obolibrary.org/obo/OGG_3100217370,"['C1DELQ21', 'DEL1Q21']",16
+26,http://purl.obolibrary.org/obo/OGG_3000008268,"['CIIPX', 'CIIP', 'IPOX']",21
+27,http://purl.obolibrary.org/obo/OGG_3000003387,"['FICCA', 'ICCA']",8
+28,http://purl.obolibrary.org/obo/OGG_3000054719,"['NCRNA', 'RNANC']",19
+29,http://purl.obolibrary.org/obo/OGG_3000008184,"['HB1', 'PFHB1', 'PFHB1B', 'HBN1']",8
+30,http://purl.obolibrary.org/obo/OGG_3000116442,"['MRX72', 'RAB39B']",9
+31,http://purl.obolibrary.org/obo/OGG_3000009131,"['COXPD6', 'PDCD8', 'AIF', 'CMT2D', 'COWCK', 'NAMSD', 'NADMR', 'CMTX4', 'AIFM1']",11
+32,http://purl.obolibrary.org/obo/OGG_3100190984,"['C1DELQ43Q44', 'DEL1Q42Q44', 'C1DELQ42Q44', 'DEL1Q43Q44']",20
+33,http://purl.obolibrary.org/obo/OGG_3100190983,"['C2DELQ32Q33', 'DEL2Q32Q33']",37
+34,http://purl.obolibrary.org/obo/OGG_3000009151,"['FBHOK', 'FBH3', 'HHC3']",20
+35,http://purl.obolibrary.org/obo/OGG_3000751798,"['DFNX5', 'AUNX1']",9
+36,http://purl.obolibrary.org/obo/OGG_3000056162,"['PCD', 'CILD2']",14
+37,http://purl.obolibrary.org/obo/OGG_3000091851,"['VOPT', 'MGC1', 'MGCN', 'NRLN1', 'CHL', 'DA141H5.1', 'CHRDL1']",12
+38,http://purl.obolibrary.org/obo/OGG_3000373073,"['PCH3', 'CLAM']",31
+39,http://purl.obolibrary.org/obo/OGG_3000005242,"['PGS', 'MRXS5']",28
+40,http://purl.obolibrary.org/obo/OGG_3000002460,"['C16DELP12.1', 'FRA16A']",7
+41,http://purl.obolibrary.org/obo/OGG_3000003401,"['IDDM1', 'ILPR', 'IDDM', 'IDDM2']",3
+42,http://purl.obolibrary.org/obo/OGG_3100240731,"['C15DELQ15.3', 'DEL15Q15.3']",5
+43,http://purl.obolibrary.org/obo/OGG_3000002489,"['FMD', 'FSHMD', 'FSHD1A', 'FSHD', 'FSHMD1A']",21
+44,http://purl.obolibrary.org/obo/OGG_3000002490,"['FSHD1B', 'FSHMD1B']",9
+45,http://purl.obolibrary.org/obo/OGG_3000114610,"['SPAX1', 'SAX1']",15
+46,http://purl.obolibrary.org/obo/OGG_3000007393,"['USH1', 'USH1A']",8
+47,http://purl.obolibrary.org/obo/OGG_3100689013,"['MRT21', 'MRT17']",17
+48,http://purl.obolibrary.org/obo/OGG_3000010306,"['CTPA', 'ECK', 'CTPP1', 'CPP', 'ARCC2', 'CTPP']",5
+49,http://purl.obolibrary.org/obo/OGG_3000000982,"['CDTB', 'CDBII', 'CDB2']",5
+50,http://purl.obolibrary.org/obo/OGG_3100380873,"['FCD2', 'FECD3']",2
+51,http://purl.obolibrary.org/obo/OGG_3000006765,"['OVC', 'OVCS', 'ST8']",5
+52,http://purl.obolibrary.org/obo/OGG_3000050823,"['MUHH', 'HMU']",7
+53,http://purl.obolibrary.org/obo/OGG_3000000437,"['ASOD', 'ASMD']",7
+54,http://purl.obolibrary.org/obo/OGG_3000001403,"['CRS1', 'CSO', 'CRS']",5
+55,http://purl.obolibrary.org/obo/OGG_3000050818,"['EKD1', 'PKC', 'DYT10']",7
+56,http://purl.obolibrary.org/obo/OGG_3000000492,"['CLA2', 'SCAX1', 'OPCA', 'PMCA3', 'PMCA3A', 'ATP2B3']",15
+57,http://purl.obolibrary.org/obo/OGG_3000001433,"['DYT9', 'CSE']",15
+58,http://purl.obolibrary.org/obo/OGG_3000080768,"['MNDJ', 'HMNJ']",12
+59,http://purl.obolibrary.org/obo/OGG_3000007467,"['PRDS', 'WHCR']",88
+60,http://purl.obolibrary.org/obo/OGG_3000000171,"['AFDN', 'AFD1']",57
+61,http://purl.obolibrary.org/obo/OGG_3100532738,"['C1DELP32P31', 'DEL1P32P31']",26
+62,http://purl.obolibrary.org/obo/OGG_3000007489,"['BGMR', 'WSN']",17
+63,http://purl.obolibrary.org/obo/OGG_3000007491,"['MTACR1', 'ADCR', 'WT2']",3
+64,http://purl.obolibrary.org/obo/OGG_3000001165,"['CPD3', 'CLA1', 'SCAR2']",23
+65,http://purl.obolibrary.org/obo/OGG_3000780897,"['HPP', 'FPH1', 'MUH', 'HPP1']",8
+66,http://purl.obolibrary.org/obo/OGG_3000007909,"['HCI', 'HEMC']",2
+67,http://purl.obolibrary.org/obo/OGG_3000023676,"['DFN6', 'DFNX4', 'SMPX']",4
+68,http://purl.obolibrary.org/obo/OGG_3000474386,"['ADSA', 'SNAX1']",9
+69,http://purl.obolibrary.org/obo/OGG_3000000560,"['AZFA', 'SP3', 'AZF', 'AZF1']",2
+70,http://purl.obolibrary.org/obo/OGG_3000050952,"['DHMNVP', 'HMN7A']",12
+71,http://purl.obolibrary.org/obo/OGG_3000007864,"['SCLC', 'SCCL', 'SCLC1']",2
+72,http://purl.obolibrary.org/obo/OGG_3000050968,"['BAFME1', 'FAME', 'MEBA', 'FAME1', 'BAFME', 'FCMTE1']",13
+73,http://purl.obolibrary.org/obo/OGG_3000050963,"['TLH1', 'BRKS', 'BRKS1']",18
+74,http://purl.obolibrary.org/obo/OGG_3000282631,"['GCCD3', 'GCCD2']",5
+75,http://purl.obolibrary.org/obo/OGG_3000554188,"['BAFME2', 'ADCME', 'FAME', 'FAME2', 'FCMTE2']",14
+76,http://purl.obolibrary.org/obo/OGG_3000055869,"['WTS', 'HDACL1', 'MRXS6', 'HD8', 'CDLS5', 'RPD3', 'HDAC8']",33
+77,http://purl.obolibrary.org/obo/OGG_3000050947,"['BFHD', 'BHD']",10
+78,http://purl.obolibrary.org/obo/OGG_3000257641,"['NPC1', 'NPCA1']",2
+79,http://purl.obolibrary.org/obo/OGG_3000059333,"['HMSNR', 'NMSR']",14
+80,http://purl.obolibrary.org/obo/OGG_3000050989,"['HMSNP', 'HMSNO']",20
+81,http://purl.obolibrary.org/obo/OGG_3000004080,"['LZMS', 'MCOPS1', 'MAA']",54
+82,http://purl.obolibrary.org/obo/OGG_3000004095,"['MD1', 'BPAD', 'MAFD1']",3
+83,http://purl.obolibrary.org/obo/OGG_3000007445,"['ADNIV', 'VRNI']",10
