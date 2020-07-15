@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'ranks/style.css' %}">
+</head>
+
+<body>
+  <h1> Rare Disease Search </h1>
+
+  <div class="header">
+    <nav>
+      <a href="">GARD</a>
+      <a href="">ORPHANET</a>
+    </nav>
+  </div>
+
+  <div class = "search">
+    <input type="text" placeholder="Input phenotypes to search diseases" name ="search" />
+    <button type ="submit"> Submit </button>
+  </div>
+
+  <!--
+  {% if latest_question_list %}
+      <ul>
+       {% for question in latest_question_list %}
+          <li><a href="{% url 'ranks:detail' question.id %}">{{ question.question_text }}</a></li>
+      {% endfor %}
+
+      </ul>
+  {% else %}
+      <p>No polls are available.</p>
+  {% endif %} -->
+
+  <div class = "table">
+    <table>
+      <tr>
+          <th>GARD ID</th>
+          <th>Disease</th>
+          <th>Prevalence</th>
+      </tr>
+      <tr> <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr> <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr> <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
