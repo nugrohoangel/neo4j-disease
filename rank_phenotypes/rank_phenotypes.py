@@ -20,8 +20,7 @@ def rank_phenotypes_weighted_tfidf2(phenos):
     N = len(diseases)
     for did, disease in diseases.items():
         p1 = set(phenos)
-        #p2 = set(disease['phenotypes'])
-        p2 = set(disease['phenotypes'].keys())
+        p2 = set(disease['phenotypes'])
         p3 = p1 & p2 # intersection
         if len(p3) > 0:
             # calculate tf-idf
@@ -47,8 +46,7 @@ def rank_phenotypes_weighted_tfidf(phenos):
     N = len(diseases)
     for did, disease in diseases.items():
         p1 = set(phenos)
-        #p2 = set(disease['phenotypes'])
-        p2 = set(disease['phenotypes'].keys())
+        p2 = set(disease['phenotypes'])
         p3 = p1 & p2 # intersection
         if len(p3) > 0:
             # calculate tf-idf
@@ -71,8 +69,7 @@ def rank_phenotypes_tfidf(phenos):
     N = len(diseases)
     for did, disease in diseases.items():
         p1 = set(phenos)
-        #p2 = set(disease['phenotypes'])
-        p2 = set(disease['phenotypes'].keys())
+        p2 = set(disease['phenotypes'])
         p3 = p1 & p2 # intersection
         if len(p3) > 0:
             # calculate tf-idf
@@ -82,8 +79,7 @@ def rank_phenotypes_tfidf(phenos):
                 tf = 1/total
                 idf = math.log10(N/len(phenotypes[p]['diseases']))
                 score += tf*idf
-            #rank.append((score, disease, p3))
-            rank.append((score * disease['phenotypes'][p], disease, p3))
+            rank.append((score, disease, p3))
             
     return sorted(rank, key=lambda x: x[0], reverse=True)
 

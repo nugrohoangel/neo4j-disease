@@ -4,7 +4,7 @@ import json
 uri = "bolt://disease.ncats.io:80"
 driver = GraphDatabase.driver(uri, auth=("neo4j", ""))
 
-def disease_phenotype_weights(tx, weights, prevalences): #added prevalences dict
+def disease_phenotype_weights(tx, weights):
     diseases = {}
     for d in tx.run("""
 match (n:S_GARD)<--(d:DATA)
@@ -15,7 +15,7 @@ return id(n) as id, d.gard_id as `dis_id`, d.name as `name`"""):
             'id': id,
             'node': node,
             'name': d['name'],
-            'phenotypes': {}
+            'phenotypes': []
         }
         if node in weights:
             disease['weight'] = weights[node]
@@ -49,15 +49,13 @@ return id(m) as id, d.notation as `hp_id`, d.label as `name`""",
             else:
                 phenotypes[id]['diseases'].append(did)
             phenowt += wt
-            #disease['phenotypes'].append(id)
-            x = prevalences[disease['id']][id]
-            disease['phenotypes'][id] = x
+            disease['phenotypes'].append(id)
             
         if len(disease['phenotypes']) == 0:
             remove.append(did)
         else:
             diseases[did]['phenowt'] = phenowt
-            #disease['phenotypes'].sort()
+            disease['phenotypes'].sort()
             print(disease)
 
     for pip, phenotype in phenotypes.items():
@@ -75,8 +73,8 @@ return id(m) as id, d.notation as `hp_id`, d.label as `name`""",
 
 if __name__ == '__main__':
     import sys
-    if len(sys.argv) != 3:
-        print('Usage: %s WEIGHT_FILE PREVALENCES_FILE' % sys.argv[0])
+    if len(sys.argv) == 1:
+        print('Usage: %s WEIGHT_FILE' % sys.argv[0])
         sys.exit(1)
         
     weights = {}
@@ -88,35 +86,10 @@ if __name__ == '__main__':
                 weights[int(id)] = float(w)
             count += 1
         print ('%d weights loaded!' % len(weights))
-        
-    prevalences = {}
-    with open(sys.argv[2]) as f:
-        count = 0
-        for line in f.readlines():
-            hp_code, prev, gard_code = line.strip().split(',')
-            if count > 0:
-                if gard_code not in prevalences.keys():
-                    prevalences[gard_code] = {}
-                
-                if "Excluded" in prev:
-                    prevalences[gard_code][hp_code] = 0/100
-                elif "Very rare" in prev:
-                    prevalences[gard_code][hp_code] = 2.5/100
-                elif "Occasional" in prev:
-                    prevalences[gard_code][hp_code] = 17/100
-                elif "Very frequent" in prev:
-                    prevalences[gard_code][hp_code] = 89.5/100
-                elif "Obligate" in prev: 
-                    prevalences[gard_code][hp_code] = 100/100
-                else:
-                    prevalences[gard_code][hp_code] = 54.5/100                    
-                 
-            count += 1
-        print ('%d prevalences loaded!' % len(prevalences))
 
     with driver.session() as session:
         diseases, phenotypes = session.read_transaction(
-            disease_phenotype_weights, weights, prevalences)
+            disease_phenotype_weights, weights)
         with open('weights_disease.json', 'w') as f:
             print(json.dumps(diseases, indent=2), file=f)
         with open('weights_phenotype.json', 'w') as f:

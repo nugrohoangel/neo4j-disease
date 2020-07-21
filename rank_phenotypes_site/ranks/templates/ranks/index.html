@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'ranks/style.css' %}">
+  <script src="scripts/jquery-3.4.1.min.js" type=text/javascript></script>
+  <script src="scripts/input_form.js" type=text/javascript></script>
+</head>
+
+<body>
+  <h1> Rare Disease Search </h1>
+
+  <div class="header">
+    <nav>
+      <a href="">GARD</a>
+      <a href="">ORPHANET</a>
+    </nav>
+  </div>
+
+  <div class = "search">
+    <form id="form" action="{% url 'ranks:rank' %}" method="get" novalidate>
+      <input type="text" placeholder="Input phenotypes to search diseases" id="input" name="input"/>
+      <button type ="submit"> Submit </button>
+    </form>
+
+<!--    <script>
+      function results() {
+          var input = document.getElementById('input').value
+          var results = {% rank(input)}
+        }
+    </script> -->
+  </div>
+
+<div class = "table">
+    <table>
+  {% if rankings %}
+    <tr>
+      <th>GARD ID</th>
+      <th>Disease</th>
+      <th>Score</th>
+      <th>Phenotypes</th>
+    </tr>
+
+    <tr>
+      {% for disease in rankings %}
+        <td>{{disease.ontology_id}}</td>
+        <td>{{disease.disease_name}</td>
+        <td>{{disease.score}}</td>
+        <td>{{disease.phenotypes}}</td>
+      {% endfor %}
+    </tr>
+
+  {% else %}
+    <p> No diseases found. <p>
+  {% endif %}
+
+  <!--
+  {% if latest_question_list %}
+      <ul>
+       {% for question in latest_question_list %}
+          <li><a href="{% url 'ranks:detail' question.id %}">{{ question.question_text }}</a></li>
+      {% endfor %}
+
+      </ul>
+  {% else %}
+      <p>No polls are available.</p>
+  {% endif %}
+
+  <div class = "table">
+    <table>
+      <tr>
+          <th>GARD ID</th>
+          <th>Disease</th>
+          <th>Prevalence</th>
+      </tr>
+      <tr> <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr> <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr> <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+-->
+
+</body>
+</html>

@@ -20,3 +20,12 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+class DiseaseRank(models.Model):
+    ontology_id = models.CharField()
+    disease_name = models.CharField()
+    score = models.DecimalField()
+    prevalence = models.CharField()
+
+    def __str__(self):
+        return self.gard_id
